@@ -1,3 +1,7 @@
 # the-babel
 This is my journey to the babel.
-Claude asked me to create this repo in github. I'm learning computation linguistics, trying to do something to English model and Chinese model. I'll try to put some work here. 
+I was a MA in Linguistics. I've been working on an irrelavant job for 15 years before I decided to pursue PhD in linguistics--LLMs as objects of linguistic study, probing what grammar knowledge they have -- in July 2026. Now I'm rebuilding mathmatics and python from a low base to help myself get into NLP world. Maybe not a very strictly technical level of NLP or computational linguistics, but linguistics linking to NLP.
+I'm a Chinese speaker, used to stay in China, now in Singapore. I speak Mandarin, and understand several dialects. After relocating to Singapore, I also learnt some Singlish phoneomenon, which helped me understand the Pidgin a bit better. I also speak un peu de francais.
+Oh right, I speak English too.
+As of Sep 2026, I'm trying to learn from some basic knowledge about bigram model, and I built a model from scratch on a Gutenberg novel, Count of Monte Cristo, and a minimal-pair tests of subject-verb agreement, and a character-level model of 紅樓夢.
+Claude is teaching me doing all of these. It won't give me direct answers, but would give me step-by-step guide. And it never gets frustrated or angry. And it's never abusive or toxic.
