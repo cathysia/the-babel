@@ -1,0 +1,15 @@
+#read a text file, count how many times each word appears, print the results. 
+#Then improve it once with .lower() so "The" and "the" are the same word. 
+fhand = open('romeo.txt')
+base = dict()
+for lst in fhand:
+    #lst = lst.rstrip()
+    lst = lst.split()
+    print(lst)
+    for word in lst:
+        word = word.lower()
+        base[word] = base.get(word, 0) + 1
+print(base)
+
+print("hello world\n".split())
+print("  hello   world  \n".split())

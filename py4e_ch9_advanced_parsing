@@ -1,0 +1,29 @@
+import string
+
+#fname = input('Enter the file name: ')
+#try:
+#    fhand = open(fname)
+#except:
+#    print('File cannot be opened:', fname)
+#    exit()
+#fhand = open('romeo-full.txt')
+#counts = dict()
+#for line in fhand:
+#    line = line.rstrip()
+    # First two parameters are empty strings
+#    line = line.translate(line.maketrans("", "", string.punctuation))
+#    line = line.lower()
+#    words = line.split()
+#    for word in words:
+#        if word not in counts:
+#            counts[word] = 1
+#        else:
+#            counts[word] += 1
+
+#print(counts)
+
+fhand = open('mbox-short.txt')
+for line in fhand:
+    lst = line.split()
+    lst = line.translate(line.maketrans("edu", "gov", string.punctuation))
+    print(lst)

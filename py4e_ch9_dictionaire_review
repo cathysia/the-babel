@@ -1,0 +1,45 @@
+#review = dict()
+#review['one'] = 'un'
+#print(review)
+#review = {'one':'un', 'two':'deux', 'three':'trois'}
+#print(review)
+#print(review['two'])
+#print(review['deux'])
+#print(len(review))
+#print('one' in review)
+#print('un' in review)
+#print('un' in review.values())
+my_dic = dict( )
+fhand = open('words.txt')
+count = 1
+for line in fhand:
+    line = line.split()
+    for word in line:
+        if word not in my_dic:
+            my_dic[word] = count
+            count = count + 1
+        else: continue
+#print(my_dic)
+print(len(my_dic), 'unique words')
+
+word = 'brontosaurus'
+d = dict()
+for c in word:
+    if c not in d:
+        d[c] = 1
+    else:
+        d[c]+= 1
+print(d)
+
+counts = { 'chuck' : 1 , 'annie' : 42, 'jan': 100}
+print(counts.get('jan', 0)) 
+print(counts.get('tim', 0))
+
+word = 'brontosaurus'
+d = dict()
+for c in word:
+    d[c] = d.get(c,0) + 1
+print(d)
+lst = list(d.keys())
+lst.sort()
+print(lst)
