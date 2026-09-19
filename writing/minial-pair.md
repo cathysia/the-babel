@@ -39,3 +39,4 @@ So the 2 pairs of long-distance agreements, 1 failed to the prediction.
 Worth to note that I use '\w+' to tokenize, instead of split(), "\w+" treats underscore as a word character, hence underscore italics leak.
 
 if we only look at the count: 'door is' found 2, 'door are', 0; 'letter is', 4, 'letter are', 1; 'friends is', 1, 'friends are', 3; 'horses is', 0, 'horses are', 3; 'count is' 16 and 'count are' 6(while the count is proably being vocative); 'eyes are' 3, 'eyes is' 0: grammatical bigram wins the count but failed the bigram scores, the bigram scores can't tell the story.
+

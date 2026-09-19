@@ -1,0 +1,43 @@
+import json
+
+pairs = '''[
+    {
+        "name": "door",
+        "type": "adjacent",
+        "grammatical": "the door is open",
+        "ungrammatical": "the door are open",
+        "critical": "door"
+    },
+    {
+        "name": "walk",
+        "type": "adjacent",
+        "grammatical": "she walks to the door",
+        "ungrammatical": "she walk to the door",
+        "critical": "she"
+    },
+    {
+        "name": "letter",
+        "type": "adjacent",
+        "grammatical": "the letter is here",
+        "ungrammatical": "the letter are here",
+        "critical": "letter"
+    },
+    {
+        "name": "friends",
+        "type": "long-distance",
+        "grammatical": "the letter from his friends is here",
+        "ungrammatical": "the letter from his friends are here",
+        "critical": "friends"
+    },
+    {"name": "horses",
+        "type": "long-distance",
+        "grammatical": "the woman with the horses is here",
+        "ungrammatical": "the woman with the horses are here",
+        "critical": "horses"
+    }
+
+]'''
+
+result = json.load(pairs)
+
+print(result)
